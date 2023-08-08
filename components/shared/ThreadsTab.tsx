@@ -13,7 +13,7 @@ const ThreadsTab = async ({ currentUserId, accountId, accountType }: { currentUs
                 <ThreadCard
                     key={thread._id}
                     id={thread._id}
-                    currnetUserId={currentUserId}
+                    currentUserId={currentUserId}
                     parentId={thread.parentId}
                     content={thread.text}
                     author={accountType === "User"
